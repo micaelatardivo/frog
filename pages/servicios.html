@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="agencia, agencia de marketing, redes sociales, diseño, diseño grafico, diseño web, produccion fotos, produccion videos, servicios">
+    <meta name="description" content="Diseñamos y gestionamos la estrategia digital de tu negocio. Conseguí más clientes. Tus campañas en manos de profesionales. Consultá por nuestros planes personalizados.">
+    <title>SERVICIOS FROG</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Cabin&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+
+<body class="container-d">
+
+    <header>
+        <div class="navbar">
+            <a href="../index.html"><img src="../img/logorana.png" class="logo"></a>
+            <nav>
+                <ul id="listamenu">
+                    <li><a href="agencia.html">Agencia</a></li>
+                    <li><a href="equipo.html">Equipo</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <img src="../img/menu.png" alt="tres lineas inclinadas que representan menu hamburguesa" class="menu" onclick="togglemenu()">
+        </div>
+    </header>
+
+    <h2>Nuestros servicios</h2>
+
+    <section class="ss">
+
+        <div class="row ">
+            <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+
+                    <h3 class="servicios"> Creación y diseño de contenidos para redes sociales</h3>
+                        <p class="p2" > ¿Manejar las redes sociales de tu empresa te exige demasiado tiempo? ¿Tus publicaciones no le hacen justicia a tus productos o servicios? FROG te ofrece un equipo entero de redactores, diseñadores, fotógrafos y especialistas en redes sociales
+                            que pueden dedicarse a esto por vos. </p>
+            </div>
+                
+            <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+
+                    <h3 class="servicios">Gestión de anuncios en redes sociales</h3>
+                         <p class="p2">¿Tenés contenidos hermosos pero no sabés cómo hacer para que lleguen a más gente? Nuestros expertos en Facebook Ads te van a ayudar a administrar los recursos que quieras invertir en las redes en las que tu empresa tenga presencia
+                            y un esquema de resultados bien configurados.</p>
+            </div>
+         
+            <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+
+                    <h3 class="servicios">Diseño gráfico y diseño de sitios webs</h3>
+                        <p class="p2"> Para todas tus necesidades gráficas, contamos con un equipo creativo y técnico de diseño, maquetación y programación que se encarga de diseñar tu página desde cero o rediseñar tu sitio existente, para que tus clientes te puedan encontrar y leer sobre tu oferta de productos y
+                            servicios con comodidad.</p>
+            </div>
+         
+            <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+
+                    <h3 class="servicios">Producción y edicion de fotografia y video</h3>
+                        <p class="p2" >¡No sabés lo rápido que se puede arruinar un buen perfil en redes con una foto pixelada! Si tu web, tu fanpage en Facebook y tu perfil de Instagram se ven súper profesionales, asegurate de que los contenidos que subas a ellos también lo sean.
+                            Con FROG despreocupate, dejalo a manos de profesionales.
+                        </p>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="proy2">
+        <a href="./contacto.html"><button>¡Quiero contactarme!</button></a>
+    </div>
+
+    <footer class="redes pie">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="far fa-envelope"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <p>Copyright. Todos los derechos reservados 2021.</p>
+
+    </footer>
+
+    <script>
+        var listamenu = document.getElementById ("listamenu");
+        listamenu.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if (listamenu.style.maxHeight == "0px")
+                {
+                    listamenu.style.maxHeight = "150px";
+                }
+            else {
+                    listamenu.style.maxHeight = "0px";
+                }
+        }   
+    </script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="agencia, agencia de marketing, redes sociales, diseño, diseño grafico, diseño web, produccion fotos
+    produccion videos">
+    <meta name="description" content="Diseñamos y gestionamos la estrategia digital de tu negocio. Conseguí más clientes. Tus campañas en manos de profesionales. Consultá por nuestros planes personalizados.">
+    <title>FROG</title>
+    
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Cabin&family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+
+<body class="container-a">
+
+    <header>
+        <div class="navbar">
+            <a href="index.html"><img src="./img/logorana.png" class="logo" alt="logo rana negra"></a>
+            <nav>
+                <ul id="listaMenu">
+                    <li><a href="./pages/agencia.html">Agencia</a></li>
+                    <li><a href="./pages/equipo.html">Equipo</a></li>
+                    <li><a href="./pages/servicios.html">Servicios</a></li>
+                    <li><a href="./pages/proyectos.html">Proyectos</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" alt="tres lineas inclinadas que representan menu hamburguesa" class="menu" onclick="togglemenu()">
+        </div>
+    </header>
+        
+    <seccion class="row">
+        <div class="col">
+            <h1>Frog</h1>
+
+            <p>Diseñamos y gestionamos la estrategia digital de tu negocio. Conseguí más clientes. Tus campañas en manos de profesionales. Consultá por nuestros planes personalizados.</p>
+
+            <a href="./pages/agencia.html"><button type="button">¡Quiero saber más!</button></a>
+        </div>
+    
+    
+        <div class="row2">
+            <article class="box">
+                <p>
+                    <a href="./pages/servicios.html">Creación y diseño de contenidos para redes sociales </a>
+                </p>
+            </article>
+
+            <article class="box">
+                <p>
+                    <a href="./pages/servicios.html">Gestión de anuncios en redes sociales</a>
+                <p>
+            </article>
+
+            <article class="box">
+                <p>
+                    <a href="./pages/servicios.html">Diseño gráfico y diseño de sitios webs</a>
+                <p>
+            </article>
+
+            <article class="box">
+                <p>
+                    <a href="./pages/servicios.html">Producción y edición de fotografía y video</a>
+                </p>
+            </article>
+            
+        </div>
+    </seccion>
+    
+    <footer class="redes">       
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="far fa-envelope"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <p>Copyright. Todos los derechos reservados 2021.</p>
+
+    </footer>
+
+    <script>
+        var listaM = document.getElementById ("listaMenu");
+        listaMenu.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if (listaMenu.style.maxHeight == "0px")
+                {
+                    listaMenu.style.maxHeight = "130px";
+                }
+            else {
+                    listaMenu.style.maxHeight = "0px";
+                }
+        }   
+    </script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+</body>
+</html>
